@@ -238,6 +238,16 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         ...
     </section>
 
+## solution 23
+<section class="cat-section">
+    <!-- Cat Cards -->
+</section>
+
+<section class="dog-section">
+    <!-- Dog Cards -->
+</section>
+to use descrptive class names like "cat-section" and "dog-section" for each section makes it clearer which section contains cats and which contains dogs. 
+
 ## Example 24
     .button__div--flex {
         display: flex;
