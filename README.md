@@ -122,16 +122,32 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         justify-content: center;
     }
 
+## Solution 9
+    .card {
+        border: solid 1px #000;
+        max-width: 360px;
+        padding: 20px;
+    }
+  
+    .card__content {
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
 ## Example 10
-    .card--dog--type1 header{
+    .card--dog--type1 header{ 
         background-color: green;
     }
 
-    .card--dog--type2 header{
+    .header__dog--type2{
         background-color: purple;
     }
 
-    .card--dog--type3 header{
+    .header__dog--type3{
         background-color: orange;
     }
 
@@ -142,9 +158,15 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 > [!TIP]
 > Why is it not a good idea to specify type of flex applied to element in the name of class?
 
+## solution 11 
+the description in exmpale 11 is related specific to a particular styling (flex-wrap) that is applied to the element. for best practice according to BEM class names should describe the purpose or role of the element and not the styling its self. that why keeping it like: 
+ <main class="main">
+        ...
+    </main>
+would be better
     
 ## Example 12
-    <section class="dog--flex">
+    <section class="dog__flex">
         ...
     </section>
 
@@ -155,10 +177,17 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
       </div>
     </footer>
 
+## solution 13
+    <footer class="card__options">
+      <div class="card__options--buttons">
+       ...
+      </div>
+    </footer>
+
 ## Example 14
-    <header class="">
+    <header class="card__dog">
         <h2 class="card__dog--poster">Dog Poster</h2>
-        <h3 class="">Dog poster - 50nok</h3>
+        <h3 class="card_dog--price">Dog poster - 50nok</h3>
     </header>
 
 ## Example 15
@@ -167,8 +196,14 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         <h3 class="card__subtitle">Cat poster - 50nok</h3>
     </header>
 
+## Solution 15 - in my opinion the name descriptions given here are alright
+    <header class="card__header">
+        <h2 class="card__title--cat">NEW! Cat Poster</h2>
+        <h3 class="card__subtitle">Cat poster - 50nok</h3>
+    </header>
+
 ## Example 16
-    <section class="catbox">
+    <section class="cat__box">
         ...
     </section>
 
@@ -201,12 +236,20 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     .card:nth-of-type(even) .card_basked_button {
         ...
     }
+## solution 19
+Styling cards based on nth-of-type(even) in shopping cards can cause problems because:
+
+Dynamic Changes: The order of cards may change based on user actions, making the styling unreliable.
+Semantic Meaning: The order of cards may not have any specific meaning, so styling based on odd/even doesn't make sense. 
+However, using nth-of-type(even) can work well for creating visual effects in grid-based designs.
+
+
 
 ## Example 20
 > [!TIP]
 > Why it is not a good idea to create repetitive styles based on id?
 > In which context we should use ids?
-
+> IDs should only be used for unique elements, and are not to be repeated. 
     #wishlist {
         ...
     }
@@ -216,11 +259,16 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         ...
     </main>
 
+## solution 21 
+<main class="main main--flex-container">
+    ...
+</main>
+
 ## Example 22
 > [!TIP]
 > BEM stands for block__element--modifier, is "cat" and "dog" an element? 
 
-    <section class="card-section__cats">
+    <section class="card__section--cats">
         ...
     </section>
 
@@ -233,9 +281,18 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         ...
     </section>
 
+## solution 23
+<section class="cat-section">
+    <!-- Cat Cards -->
+</section>
+
+<section class="dog-section">
+    <!-- Dog Cards -->
+</section>
+to use descrptive class names like "cat-section" and "dog-section" for each section makes it clearer which section contains cats and which contains dogs. 
+
 ## Example 24
-    .button__div1,
-    .button__div2 {
+    .button__div--flex {
         display: flex;
         flex-direction: row-reverse;
     }
@@ -264,3 +321,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 
 ## Example 27
 In what scenarios is it advantageous to use a class name that represents the animal, and in what scenarios would it be preferable to use a generic name like 'product_01' or 'product_02'?
+
+## solution 27
+using class names that represent animlas is helpful when: 
+1. Clear Content: It's obvious what the content represents, making it easier to understand.
+2.Easy Updates: Maintenance is simpler since the purpose of each element is clear.
+3.Consistency: Following a consistent naming convention makes the code more organized.
+
+however generic names are beter to use when contetn is varied, or there are frequently changes on the websites whcih allows more flexibility when using generic names. 
