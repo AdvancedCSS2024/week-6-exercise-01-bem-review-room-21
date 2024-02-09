@@ -31,7 +31,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         <h3 class="card card__h3">Opel</h3>
         <h3 class="card card__h3">Volvo</h3>
     </header>
-
+hjhjkhjkhkh
 #### Solution 1:
     <header class="card__header">
         <h2 class="card__header--title">Cars</h2>
