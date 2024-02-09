@@ -92,7 +92,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     </section>
 
 ## Example 6
-    .button--styled--disabled{
+    .button--styled__disabled{
         background-color: orange;
     }
 
