@@ -142,6 +142,12 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 > [!TIP]
 > Why is it not a good idea to specify type of flex applied to element in the name of class?
 
+## solution 11 
+the description in exmpale 11 is related specific to a particular styling (flex-wrap) that is applied to the element. for best practice according to BEM class names should describe the purpose or role of the element and not the styling its self. that why keeping it like: 
+ <main class="main">
+        ...
+    </main>
+would be better
     
 ## Example 12
     <section class="dog__flex">
