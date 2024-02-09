@@ -102,7 +102,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     </article>
 
 ## Example 8
-    <article class="card card--dog card--dog--type1">
+    <article class="card card--dog card--dog__type1">
       ...
     </article>
 
