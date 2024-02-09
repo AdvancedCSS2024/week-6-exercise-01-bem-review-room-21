@@ -155,6 +155,13 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
       </div>
     </footer>
 
+## solution 13
+    <footer class="card__options">
+      <div class="card__options--buttons">
+       ...
+      </div>
+    </footer>
+
 ## Example 14
     <header class="card__dog">
         <h2 class="card__dog--poster">Dog Poster</h2>
