@@ -201,6 +201,14 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     .card:nth-of-type(even) .card_basked_button {
         ...
     }
+## solution 19
+Styling cards based on nth-of-type(even) in shopping cards can cause problems because:
+
+Dynamic Changes: The order of cards may change based on user actions, making the styling unreliable.
+Semantic Meaning: The order of cards may not have any specific meaning, so styling based on odd/even doesn't make sense. 
+However, using nth-of-type(even) can work well for creating visual effects in grid-based designs.
+
+
 
 ## Example 20
 > [!TIP]
