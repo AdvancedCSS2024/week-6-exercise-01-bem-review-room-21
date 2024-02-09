@@ -69,6 +69,14 @@ hjhjkhjkhkh
       padding: 10px;
       }
 
+### Solution 3
+.card{
+      border: solid 1px rgb(255, 242, 0);
+      border-width: 2rem;
+      max-width: 260px;
+      padding: 10px;
+      }
+
 ## Example 4
     <p class="card__description__text">
         Lorem ipsum dolor...
@@ -98,6 +106,11 @@ hjhjkhjkhkh
 
 ## Example 7
     <article class="card cat--card">
+      ...
+    </article>
+
+### solution 7 
+<article class="article__card--cat">
       ...
     </article>
 
