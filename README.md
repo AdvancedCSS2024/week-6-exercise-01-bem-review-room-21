@@ -268,3 +268,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 
 ## Example 27
 In what scenarios is it advantageous to use a class name that represents the animal, and in what scenarios would it be preferable to use a generic name like 'product_01' or 'product_02'?
+
+## solution 27
+using class names that represent animlas is helpful when: 
+1. Clear Content: It's obvious what the content represents, making it easier to understand.
+2.Easy Updates: Maintenance is simpler since the purpose of each element is clear.
+3.Consistency: Following a consistent naming convention makes the code more organized.
+
+however generic names are beter to use when contetn is varied, or there are frequently changes on the websites whcih allows more flexibility when using generic names. 
