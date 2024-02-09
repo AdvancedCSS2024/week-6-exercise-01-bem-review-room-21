@@ -123,15 +123,15 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     }
 
 ## Example 10
-    .card--dog--type1 header{
+    .header__dog--type1{
         background-color: green;
     }
 
-    .card--dog--type2 header{
+    .header__dog--type2{
         background-color: purple;
     }
 
-    .card--dog--type3 header{
+    .header__dog--type3{
         background-color: orange;
     }
 
@@ -144,7 +144,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 
     
 ## Example 12
-    <section class="dog--flex">
+    <section class="dog__flex">
         ...
     </section>
 
@@ -156,9 +156,9 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     </footer>
 
 ## Example 14
-    <header class="">
+    <header class="card__dog">
         <h2 class="card__dog--poster">Dog Poster</h2>
-        <h3 class="">Dog poster - 50nok</h3>
+        <h3 class="card_dog--price">Dog poster - 50nok</h3>
     </header>
 
 ## Example 15
@@ -168,7 +168,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     </header>
 
 ## Example 16
-    <section class="catbox">
+    <section class="cat__box">
         ...
     </section>
 
@@ -206,7 +206,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 > [!TIP]
 > Why it is not a good idea to create repetitive styles based on id?
 > In which context we should use ids?
-
+> IDs should only be used for unique elements, and are not to be repeated. 
     #wishlist {
         ...
     }
@@ -220,7 +220,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 > [!TIP]
 > BEM stands for block__element--modifier, is "cat" and "dog" an element? 
 
-    <section class="card-section__cats">
+    <section class="card__section--cats">
         ...
     </section>
 
@@ -234,8 +234,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     </section>
 
 ## Example 24
-    .button__div1,
-    .button__div2 {
+    .button__div--flex {
         display: flex;
         flex-direction: row-reverse;
     }
