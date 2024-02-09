@@ -70,7 +70,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
       }
 
 ## Example 4
-    <p class="card__description__text">
+    <p class="card--description__text">
         Lorem ipsum dolor...
     </p>
 
