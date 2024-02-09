@@ -167,6 +167,12 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         <h3 class="card__subtitle">Cat poster - 50nok</h3>
     </header>
 
+## Solution 15 - in my opinion the name descriptions given here are alright
+    <header class="card__header">
+        <h2 class="card__title--cat">NEW! Cat Poster</h2>
+        <h3 class="card__subtitle">Cat poster - 50nok</h3>
+    </header>
+
 ## Example 16
     <section class="catbox">
         ...
