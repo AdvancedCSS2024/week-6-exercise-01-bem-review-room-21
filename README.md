@@ -216,6 +216,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         ...
     </main>
 
+## solution 21 
+<main class="main main--flex-container">
+    ...
+</main>
+
 ## Example 22
 > [!TIP]
 > BEM stands for block__element--modifier, is "cat" and "dog" an element? 
