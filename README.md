@@ -53,11 +53,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 > this solution can be correct in case class `card_header` consist of some styles that cannot be inherit and needed to be specified and are shared between all headers
 
 ## Example 2
-    .card--dog {
+    .card--dog__color {
         background-color: pink;
     }
     
-    .card--cat {
+    .card--cat__color {
         background-color: yellow;
     }
 
